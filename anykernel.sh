@@ -4,31 +4,16 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Welcome To The Azrael ...
+kernel.string=Welcome ....
 do.devicecheck=0
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=RMX2151
-device.name2=rmx2151
-device.name3=rmx2161
-device.name4=RMX2161
-device.name5=RMX2001
-device.name6=RM6785
-device.name7=rm6785
-device.name8=wasabi 
-device.name9=RMX2002
-device.name10=rmx2001
-device.name11=rmx2001L1
-device.name12=RMX2001L1
-device.name13=rmx2002
-device.name14=rmx2002L1
-device.name15=RMX2002L1
-device.name16=RMX2003
-device.name17=IN2023
-device.name18=RMX3031
-device.name19=GM1917
+device.name1=shiva
+device.name2=merlinx
+device.name3=lancelot
+device.name4=lava
 supported.versions=
 supported.patchlevels=
 '; } # end properties
