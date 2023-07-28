@@ -29,6 +29,16 @@ device.name16=RMX2003
 device.name17=IN2023
 device.name18=RMX3031
 device.name19=GM1917
+device.name20=RM6785
+device.name21=rm6785
+device.name22=RMX2156
+device.name23=RMX2161
+device.name24=RMX2163
+device.name25=RMX2153
+device.name26=RMX2153L1
+device.name27=RMX2161L1
+device.name28=RMX2163L1
+
 supported.versions=
 supported.patchlevels=
 '; } # end properties
