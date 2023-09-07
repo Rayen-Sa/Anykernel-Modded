@@ -346,7 +346,6 @@ do_levelcheck() {
 }
 dump_moduleinfo() {
 $BB cat <<EOF > $1;
-id=ak3-helper
 name=AK3 Helper Module
 version=$($BB awk '{ print $3 }' $AKHOME/vertmp) $($BB grep -oE '#.[0-9]' $AKHOME/vertmp)
 versionCode=1
@@ -472,31 +471,6 @@ if [ -f version ]; then
   ui_printfile version;
   ui_print " ";
 fi;
-ui_print "|----------------------------------------------|";
-
-ui_print "                                                                       ";
-
-ui_print "|+-+-+-+-+-+-| T H E - A Z R A E L |+-+-++-+-+-|";
-
-ui_print "                                                                       ";
-
-ui_print "|+-+-+-+-+-+-|\___________________/|+-+-++-+-+-|";
-
-ui_print "                                                                       ";
-
-ui_print "|+-+-+-+-+-+-+-+-+-|FOR RM6785|+-+-+-+-+-+-+-+-|";
-
-ui_print "                                                                      ";
-
-ui_print "|+-+-+-+-+-+-+|By AbzRaider&MrMnml|+-+-+-+-+-+-|";
-
-ui_print "                                                                     ";
-
-ui_print "|-------------|###################|------------|";
-
-
-
-
 ui_print " " "AnyKernel3 by osm0sis @ xda-developers" " ";
 $BB grep -oE 'AK_BASE.*' META-INF/com/google/android/updater-script >&2;
 ui_print " ";

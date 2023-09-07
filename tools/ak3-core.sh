@@ -740,12 +740,8 @@ setup_ak() {
     ;;
   esac;
 
-  # clean up any template placeholder files
-  cd $home;
-  rm -f modules/system/lib/modules/placeholder patch/placeholder ramdisk/placeholder;
-  rmdir -p modules patch ramdisk;
-
   # automate simple multi-partition setup for boot_img_hdr_v3 + vendor_boot
+  cd $home;
   if [ -e "/dev/block/bootdevice/by-name/vendor_boot$slot" -a ! -f vendor_setup ] && [ -f dtb -o -d vendor_ramdisk -o -d vendor_patch ]; then
     echo "Setting up for simple automatic vendor_boot flashing..." >&2;
     (mkdir boot-files;
