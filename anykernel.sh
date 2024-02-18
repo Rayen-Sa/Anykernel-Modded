@@ -5,14 +5,14 @@
 # begin properties
 properties() { '
 kernel.string=Welcome To The AbzRaider Kernel ...
-do.devicecheck=0
+do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=pissarro
-device.name2=pissarroin
-device.name3=pissarroinpro
+device.name1=agate
+device.name2=agatein
+device.name3=amber
 
 '; } # end properties
 
