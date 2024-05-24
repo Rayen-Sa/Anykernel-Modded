@@ -476,24 +476,29 @@ ui_print "|----------------------------------------------|";
 
 ui_print "                                                                       ";
 
-ui_print "|+-+-+-+-+-+-| T H E - A Z R A E L |+-+-++-+-+-|";
+ui_print "|+-+-+-+-+-+-+| F U C K  T U N I S I A |+-+-+-+-+-|";
 
 ui_print "                                                                       ";
 
-ui_print "|+-+-+-+-+-+-|\___________________/|+-+-++-+-+-|";
+ui_print "|+-+-+-+-+-+-+|\___________________/|+-+-+-+-+-+-|";
 
 ui_print "                                                                       ";
 
-ui_print "|+-+-+-+-+-+-+-+-+-|FOR RM6785|+-+-+-+-+-+-+-+-|";
+ui_print "|-+-+-+-+-+-+-+-+-|For  Lancegay|+-+-+-+-+-+-+-+-|";
 
 ui_print "                                                                      ";
 
-ui_print "|+-+-+-+-+-+-+|By AbzRaider&MrMnml|+-+-+-+-+-+-|";
+ui_print "|-+-+-+-+-+-+-+-+|By Ryen & Aqua|+-+-+-+-+-+-+-+-+|";
 
 ui_print "                                                                     ";
 
-ui_print "|-------------|###################|------------|";
+ui_print "|--------------|Based Kernel fr fr|--------------|";
 
+ui_print "                                                                     ";
+
+ui_print "                                                                     ";
+
+ui_print "Based on AbzRaiderXD kernel by AbzRaider";
 
 
 
@@ -507,7 +512,7 @@ do_devicecheck;
 do_versioncheck;
 do_levelcheck;
 
-ui_print "Installing...";
+ui_print "Cooking Stuff...";
 CORE=$($BB grep -oE 'ak.*core.sh' anykernel.sh);
 [ -f tools/$CORE ] || $BB ln -s $AKHOME/tools/ak*-core.sh $AKHOME/tools/$CORE;
 PATH="$AKHOME/bin:$PATH" home=$AKHOME $BB ash anykernel.sh $2;
